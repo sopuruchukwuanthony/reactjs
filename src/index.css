@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head-title{
+    text-align: center;
+    background-color: cadetblue;
+    color: azure;
+    margin: 20px;
+}
+.student-cont{
+    background-color: rgb(224, 236, 240);
+    margin: 10px;
+    display: flex;
+    width: 350px;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 2px 4px 10px 5px gray;
+     transition: 0.5s;
+    
+}
+.st-card{
+    text-align: center;
+    color: azure;
+    padding: 5px;
+}
+
+.student-cont:hover{
+    box-shadow: 2px 4px 10px 5px black;
+    transform: scale(1.05);
+    .st-card{
+        color: cadetblue;
+    }
+}
+.main-card{
+    display: flex;
+    gap: 4px;
+    text-align: justify;
+    line-height: 20px;
+    flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+
+.score-btn{
+    display: flex;
+    padding: 5px;
+
+}
+.score-value{
+    text-align: center;
+   
+}
+.bioBtn{
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+   background: linear-gradient(to right, black, gray, rgb(181, 181, 182));
+    color: orange;
+}
+.favBtn{
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0px 20px 0px;
+    background: linear-gradient(to right, rgb(217, 248, 247), rgb(10, 10, 10), rgb(181, 181, 182));
+   color: orangered;
+}
+.sk-badge{
+    width: 50px;
+   background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
