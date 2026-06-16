@@ -64,6 +64,8 @@ function Myskill({skills}){
     
         <Count/>
         <Badge name="react"/>
+        <Badge name="javascript"/>
+        <Badge name="python"/>
         </div>
     
 </div>
